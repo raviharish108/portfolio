@@ -1,0 +1,125 @@
+.intro_container{
+    background-color: white;
+    display: flex;
+    color:#15023a;
+    height: 80vh;
+}
+@media screen and  (max-width:750px) {
+    .intro_container{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+.left_intro{
+  height:auto;
+    flex: 0.5;
+    overflow: hidden;
+}
+@media screen and  (max-width:750px) {
+  .right_intro{
+      height:100vh;
+  }
+}
+.imgcontainer{
+      width: 700px;
+      height: 700px;
+      /* background-color: crimson; */
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float:right;
+}
+
+@media screen and  (max-width:750px) {
+    .imgcontainer{
+        align-items:flex-start;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        float:right;
+    }
+  }
+.img{
+    height: 90%;
+  
+   
+}
+
+ .right_intro{
+    flex: 0.5;
+    position: relative;
+ } 
+ .wrapper_intro{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ @media screen and  (max-width:750px) {
+    .wrapper_intro{
+        padding-left: 0;
+        align-items: center;
+    }
+  }
+ .wrapper_intro h1{
+    font-size: 60px;
+    margin: 10px 0;
+ }
+ @media screen and  (max-width:750px) {
+    .wrapper_intro h1{
+        font-size: 40px;
+    }
+  }
+ .wrapper_intro h2{
+    font-size: 35px;
+ }
+ .wrapper_intro h3{
+    font-size: 30px;
+ }
+ @media screen and  (max-width:750px) {
+    .wrapper_intro h3{
+        font-size: 20px;
+    }
+  }
+  .wrapper_intro p{
+    font-size: 30px;
+    margin:10px;
+ }
+ .arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+ }
+ @media screen and  (max-width:750px) {
+    .arrow{
+      display: none;
+    }
+  }
+    .arrow img {
+      width: 30px;
+      animation: arrowBlink 2s infinite;
+    }
+    a{
+      font-size: inherit;
+      color: inherit;
+      text-decoration: none;
+    }
+    .intro_button{
+      width: 150px;
+    height: 30px;
+    color: white;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right:20px;
+    margin-bottom:10px;
+    }
