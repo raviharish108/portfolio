@@ -1,5 +1,4 @@
 import "./intro.css";
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 export function Intro() {
@@ -20,7 +19,7 @@ export function Intro() {
           </h3>
           <p>I am a software developer entry level professional  and interesting to learn web technology and software development</p>
          <div>
-         <span className="icon"><a href="https://www.instagram.com/raviharish108/"><InstagramIcon/></a></span>
+        
          <span className="icon"><a href="https://www.linkedin.com/in/ravindran-ravi-280a60241/"><LinkedInIcon/></a></span>
          <span className="icon"><a href="https://github.com/raviharish108/"><GitHubIcon/></a></span>
           </div>

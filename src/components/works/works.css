@@ -1,6 +1,6 @@
 .p{
     width: 30%;
-    height: 50vh;
+    height: 45vh;
     margin: 20px 10px;
     border: 1px solid crimson;
     border-radius: 10px 10px 0px 0px;
@@ -10,7 +10,8 @@
   .p-img {
     width: 100%;
     transition: all 10s ease;
-    object-fit: cover;
+    object-fit:contain;
+    height:170px;
   }
   
   .p:hover .p-img {
@@ -20,7 +21,7 @@
   @media screen and (max-width: 480px) {
     .p {
       width: 30%;
-      height: 20vh;
+      height: 27vh;
     }
   }
   .pl {
@@ -42,6 +43,7 @@
   
   .pl-desc {
     margin: 20px 0px;
+    font-size:14px;
   }
   
   .pl-list {
