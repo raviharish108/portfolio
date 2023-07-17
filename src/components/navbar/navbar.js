@@ -12,7 +12,7 @@ export function Navbar({menuOpen,setMenuOpen}){
                <div className="left"><a  href="#intro" className="logo">Ravindran</a>
                     <div className="item_container">
                          <PersonIcon className='icon'/>
-                        <span>+65 9038 3992</span>
+                        <span>+91 8610140476</span>
                     </div>
                     <div className="item_container">
                         <MailIcon className='icon'/>
